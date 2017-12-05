@@ -7,15 +7,31 @@
     "fontawesome",
     "icons"
   ],
+  "scripts": {
+    "build": "node ./bin/create | xargs babel --out-dir dist",
+    "prepublish": "npm run build",
+    "eslint": "eslint ."
+  },
   "main": "dist/index.js",
   "repository": {
     "url": "git@github.com:joshkennedy/react-fontawesome-svg",
     "type": "git"
   },
   "bugs": "git@github.com:joshkennedy/react-fontawesome-svg/issues",
-  "author": "Josh Kennedy <hello@joshkennedy.me>",
+  "author": "Josh Kennedy",
   "license": "MIT",
   "dependencies": {
-    "eslint": "^4.12.1"
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.0.3",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^4.12.1",
+    "jsx-loader": "^0.13.2",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
   }
 }

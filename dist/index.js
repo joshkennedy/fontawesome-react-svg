@@ -1,3 +1,5 @@
+import React from "react";
+
 export { default as AddressBookO } from "./icons/AddressBookO";
 export { default as AddressBook } from "./icons/AddressBook";
 export { default as AddressCardO } from "./icons/AddressCardO";
