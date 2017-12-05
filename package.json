@@ -14,5 +14,8 @@
   },
   "bugs": "git@github.com:joshkennedy/react-fontawesome-svg/issues",
   "author": "Josh Kennedy <hello@joshkennedy.me>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "eslint": "^4.12.1"
+  }
 }
