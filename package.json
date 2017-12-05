@@ -1,0 +1,14 @@
+{
+  "name": "react-fontawesome-svg",
+  "version": "1.0.0",
+  "description": "Fontawesome icons as SVG React components",
+  "keywords": ["react", "fontawesome", "icons"],
+  "main": "dist/index.js",
+  "repository": {
+    "url": "git@github.com:joshkennedy/react-fontawesome-svg",
+    "type": "git"
+  },
+  "bugs": "git@github.com:joshkennedy/react-fontawesome-svg/issues",
+  "author": "Josh Kennedy <hello@joshkennedy.me>",
+  "license": "MIT"
+}
