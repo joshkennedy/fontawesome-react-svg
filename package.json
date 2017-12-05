@@ -7,11 +7,6 @@
     "fontawesome",
     "icons"
   ],
-  "scripts": {
-    "build": "node ./bin/create | xargs babel --out-dir dist",
-    "prepublish": "npm run build",
-    "eslint": "eslint ."
-  },
   "main": "dist/index.js",
   "repository": {
     "url": "git@github.com:joshkennedy/react-fontawesome-svg",
